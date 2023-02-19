@@ -1,0 +1,3 @@
+employee_file = open("employees2.txt", "r")
+print(employee_file.read(),"\n")
+employee_file.close()
